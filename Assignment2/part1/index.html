@@ -115,7 +115,7 @@
 
     <main>
       <article>
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=bPr_OldixNUUhYJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=bPr_OldixNUUhYJm" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -126,36 +126,43 @@
       <div class="further-info">
         
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="Assets/firefoxlogo400.png" alt="The Firefox Logo"
-               srcset="Assets/firefoxlogo400.png 1x"
-               sizes="400px">
+          <img srcset="Assets/firefoxlogo120.png 120px, Assets/firefoxlogo400.png 400px" 
+               
+               sizes="(max-width: 400px)120px, 400px"
+
+               src="Assets/firefoxlogo400.png" alt="The Firefox Logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="Assets/mozilladinosaurhead400.png" alt="The mozilla dinosaur head logo"
-          srcset="Assets/mozilladinosaurhead400.png 1x"
-          sizes="400px">
+          <img srcset="Assets/mozilladinosaurhead120.png 120px, Assets/mozilladinosaurhead400.png 400px"
+          
+               sizes="(max-width: 400px)120px, 400px"
+          
+               src="Assets/mozilladinosaurhead400.png" alt="The mozilla dinosaur head logo">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="Assets/firefoxaddons400.jpg" alt="FireFox addons"
-               srcset="Assets/firefoxaddons400.jpg 1x"
-               sizes="400px">
+          <img  
+               srcset="Assets/firefoxaddons120.jpg 120px, Assets/firefoxaddons400.jpg 400px"
+               
+               sizes="(max-width: 400px)120px, 400px"
+               
+               src="Assets/firefoxaddons400.jpg" alt="FireFox addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img src="Assets/mdn.svg" alt="MDN Logo"
-               srcset="Assets/mdn.svg 1x"
-               sizes="400px">
+          <img src="Assets/mdn.svg" alt="MDN Logo">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        
+
         <picture>
-          <img src="Assets/redpanda1200.jpg" alt="a red panda"
-          srcset="Assets/redpanda600.jpg">
-          
-        </picture>    
         
+          <source srcset="Assets/redpanda600.jpg 600w" media="(max-width: 600px)"/>
+        
+          <img src="Assets/redpanda1200.jpg" alt="A red panda"/>
+        
+        </picture>
+      
       </div>
 
     </main>
