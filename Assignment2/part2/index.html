@@ -21,24 +21,30 @@
     <table>
 
       <caption>Data about the planets of our solar system (Planetary facts taken from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
-      
-
-      <table>
+        <colgroup>
+          <col span="2">
+          <col style="border: 2px solid black">
+          <col span="9">
+        </colgroup>
+        <thead>
           <tr>
-            <th>Name</th>
-            <th>Mass (10<sup>24</sup>kg)</th>
-            <th>Diameter (km)</th>
-            <th>Density (kg/m<sup>3</sup>)</th>
-            <th>Gravity (m/s<sup>2</sup>)</th>
-            <th>Length of day (hours)</th>
-            <th>Distance from Sun (10<sup>6</sup>km)</th>
-            <th>Mean temperature (°C)</th>
-            <th>Number of moons</th>
-            <th>Notes</th>
+            <td colspan="2"></td>
+            <th scope="col">Name</th>
+            <th scope="col">Mass (10<sup>24</sup>kg)</th>
+            <th scope="col">Diameter (km)</th>
+            <th scope="col">Density (kg/m<sup>3</sup>)</th>
+            <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+            <th scope="col">Length of day (hours)</th>
+            <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+            <th scope="col">Mean temperature (°C)</th>
+            <th scope="col">Number of moons</th>
+            <th scope="col">Notes</th>
           </tr>
+        </thead>
         <tbody>
           <tr>
-            <td>Mercury</td>
+            <th rowspan="4" colspan="2" scope="rowgroup">Terrestrial planets</th>
+            <th scope="row">Mercury</th>
             <td>0.330</td>
             <td>4,879</td>
             <td>5427</td>
@@ -50,7 +56,7 @@
             <td>Closest to the Sun</td>
           </tr>
           <tr>
-            <td>Venus</td>
+            <th scope="row">Venus</th>
             <td>4.87</td>
             <td>12,104</td>
             <td>5243</td>
@@ -58,10 +64,10 @@
             <td>2802.0</td>
             <td>108.2</td>
             <td>464</td>
-            <td>0</td>
+            <td></td>
           </tr>
           <tr>
-            <td>Earth</td>
+            <th scope="row">Earth</td>
             <td>5.97</td>
             <td>12,756</td>
             <td>5514</td>
@@ -73,7 +79,7 @@
             <td>Our world</td>
           </tr>
           <tr>
-            <td>Mars</td>
+            <th scope="row">Mars</td>
             <td>0.642</td>
             <td>6,792</td>
             <td>3933</td>
@@ -85,7 +91,9 @@
             <td>The red planet</td>
           </tr>
           <tr>
-            <td>Jupiter</td>
+            <th rowspan="4" scope="rowgroup">Jovian planets</th>
+            <th rowspan="2" scope="rowgroup">Gas giants</th>
+            <th scope="row">Jupiter</th>
             <td>1898</td>
             <td>142,984</td>
             <td>1326</td>
@@ -97,7 +105,7 @@
             <td>The largest planet</td>
           </tr>
           <tr>
-            <td>Saturn</td>
+            <th scope="row">Saturn</td>
             <td>568</td>
             <td>120,536</td>
             <td>687</td>
@@ -108,7 +116,8 @@
             <td>62</td>
           </tr>
           <tr>
-            <td>Uranus</td>
+            <th rowspan="2" scope="rowgroup">Ice giants</th>
+            <th scope="row">Uranus</th>
             <td>86.8</td>
             <td>51,118</td>
             <td>1271</td>
@@ -119,7 +128,7 @@
             <td>27</td>
           </tr>
           <tr>
-            <td>Neptune</td>
+            <th scope="row">Neptune</td>
             <td>102</td>
             <td>49,528</td>
             <td>1638</td>
@@ -130,7 +139,8 @@
             <td>14</td>
           </tr>
           <tr>
-            <td>Pluto</td>
+            <th colspan="2" scope="row">Dwarf planets</th>
+            <th scope="row">Pluto</th>
             <td>0.0146</td>
             <td>2,370</td>
             <td>2095</td>
@@ -142,7 +152,7 @@
             <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
           </tr>
         </tbody>
-      </table>
+      
 
     </table>
     
