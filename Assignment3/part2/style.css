@@ -12,10 +12,14 @@ html {
 }
 
 div {
-  
+
   /* placing and sizing */
   width: 200px
   margin- auto;  
   line-height: 9;
 
+  /* text */
+  font-size: 1.125rem;
+  /* 18 px = 1.125rem */
+  
 }
