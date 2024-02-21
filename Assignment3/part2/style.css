@@ -20,6 +20,13 @@ div {
 
   /* text */
   font-size: 1.125rem;
-  /* 18 px = 1.125rem */
-  
+  /* default font-size is 16px, 18 px = 1.125rem. 
+     So i set it to that */
+
+  text-align: center;
+  color: white;
+  /* choose a text color that suites the background and aligned 
+     the text to centre */
+
+
 }
