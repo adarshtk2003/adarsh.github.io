@@ -28,5 +28,6 @@ div {
   /* choose a text color that suites the background and aligned 
      the text to centre */
 
-
+  text-shadow: 1px 1px 1px black;
+  /* added text shadow and its radius */
 }
