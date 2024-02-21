@@ -11,3 +11,11 @@ html {
   font-family: sans-serif;
 }
 
+div {
+  
+  /* placing and sizing */
+  width: 200px
+  margin- auto;  
+  line-height: 9;
+
+}
