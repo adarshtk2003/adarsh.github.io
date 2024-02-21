@@ -14,8 +14,9 @@ html {
 div {
 
   /* placing and sizing */
-  width: 200px
-  margin- auto;  
+  width: 200px;
+  height: 200px;
+  margin: auto;
   line-height: 9;
 
   /* text */
@@ -34,4 +35,15 @@ div {
   /* border */
   border-radius: 10px;
   border: 1px solid #990000;
+
+  /* background effects */
+  background-color: red;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+
+
 }
