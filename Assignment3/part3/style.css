@@ -49,13 +49,14 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
+/* font face */
 
 @font-face {
   font-family: 'cantata_oneregular';
   src: url('cantataone-regular-webfont.woff2') format('woff2'),
        url('cantataone-regular-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
+  font-style: normal; 
 
 }
 
@@ -73,6 +74,25 @@ html {
   font-size: 10px;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'open_sansbold', sans-serif;
+  text-align: 2px;
 }
+
+/* general text style */
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+
+
