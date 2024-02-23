@@ -1,4 +1,11 @@
-/* General setup */
+/*
+	Name: Adarsh Thekkekulathingal Kuriyachan
+	File: style.css
+	Date: 23 February 2024
+	Description: The CSS establish the layout and styling for the homepage of an 
+               imaginary community college. This CSS will be appended to refine 
+               the page's appearance and functionality.
+	*/
 
 * {
   box-sizing: border-box;
@@ -42,4 +49,3 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
