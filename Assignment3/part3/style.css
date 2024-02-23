@@ -94,5 +94,29 @@ section h2 + p {
   text-indent: 20px;
 }
 
+/* styling the link */
 
+a {
+  outline: none;
+}
+
+/* external icon */
+
+a[href*="http"] {
+  padding-right: 19px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+}
+
+/* colour, visited */
+
+a:link, a:visited {
+  color: #a66;
+}
+
+/* focus, hover */
+
+a:focus, a:hover {
+  text-decoration: none;
+}
 
