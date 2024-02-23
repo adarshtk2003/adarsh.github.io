@@ -76,7 +76,7 @@ html {
 
 h1, h2 {
   font-family: 'open_sansbold', sans-serif;
-  text-align: 2px;
+  letter-spacing: 2px;
 }
 
 /* general text style */
@@ -142,3 +142,4 @@ ul {
 ol {
   list-style-type: lower-latin;
 }
+
