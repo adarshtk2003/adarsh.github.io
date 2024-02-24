@@ -170,6 +170,7 @@ nav li a {
   text-align: center;
   font-size: 2.5rem;
   border: 1px solid #a66;
+  border-radius: 5px;
 }
 
 nav li a:focus, nav li a:hover {
