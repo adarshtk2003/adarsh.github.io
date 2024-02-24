@@ -61,6 +61,7 @@ body {
     padding: 0;
     display: grid;
     gap: 1px;
+    grid-template-columns: 1fr 1fr;
     
   }
 
