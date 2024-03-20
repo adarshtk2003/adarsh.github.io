@@ -1,3 +1,8 @@
+// Name: Adarsh Thekkekulathingal Kuriyachan
+// File: main.js
+// Date: 20 March, 2024
+// Description: Using Javascript creating some bouncing balls, exploring different properties of the language.
+
 // setup canvas
 
 const canvas = document.querySelector('canvas');
