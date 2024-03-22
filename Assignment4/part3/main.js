@@ -76,3 +76,5 @@ class Ball {
     }
   }
 }
+
+const balls = [];
