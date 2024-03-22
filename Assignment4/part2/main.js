@@ -35,3 +35,7 @@ for (const image of imageFilenames) {
   }
 
 /* Wiring up the Darken/Lighten button */
+
+btn.addEventListener('click', () => {
+    
+})
