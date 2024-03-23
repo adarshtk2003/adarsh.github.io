@@ -183,17 +183,27 @@ while (balls.length < 25) {
    );
 
   balls.push(ball);
+  count++;
+  countDisplay.textContent = 'Ball count: ' + count;
 }
+
+const darkSphere = new EvilCircle(random(0, width), random(0, height));
 
 function loop() {
    ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
    ctx.fillRect(0, 0,  width, height);
 
    for (const ball of balls) {
-     ball.draw();
-     ball.update();
-     ball.collisionDetect();
-   }
+      if(ball.exists){
+      ball.draw();
+      ball.update();
+      ball.collisionDetect();
+      }
+    }
+
+    darkSphere.draw();
+    darkSphere.checkBounds();
+    darkSphere.collisionDetect();
 
    requestAnimationFrame(loop);
 }
