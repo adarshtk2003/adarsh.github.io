@@ -85,13 +85,13 @@ nav ul {
   display: flex;
 }
 
- nav li {
+nav li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-div[class="nav"] a {
+nav a {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
