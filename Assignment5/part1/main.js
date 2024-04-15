@@ -1,3 +1,10 @@
+/*
+Name: Adarsh Thekkekulathingal Kuriyachan
+Date: 15 - 04 - 2024
+File: main.html
+Description: Main aim is to dive into the world of accessibility and fixing the issues in the code.
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
